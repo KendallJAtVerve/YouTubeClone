@@ -1,5 +1,6 @@
 <script setup>
 import { Head, Link } from '@inertiajs/vue3';
+import NavLayout from '@/Layouts/NavLayout.vue';
 
 defineProps({
     canLogin: {
@@ -21,5 +22,7 @@ defineProps({
 
 <template>
     <Head title="YouTube" />
-    Cool
+    <NavLayout>
+        
+    </NavLayout>
 </template>
